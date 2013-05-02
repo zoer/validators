@@ -1,0 +1,4 @@
+ru:
+  validation:
+    should_not_include_email: не должно содержать email
+    should_not_include_phone: не должно содержать телефонный номер

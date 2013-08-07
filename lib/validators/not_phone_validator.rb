@@ -6,4 +6,8 @@ class NotPhoneValidator < ActiveModel::EachValidator
       end
     end
   end
+
+  def self.kind
+    :custom
+  end
 end

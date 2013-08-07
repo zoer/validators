@@ -4,4 +4,8 @@ class NotEmailValidator < ActiveModel::EachValidator
       record.errors[attribute] << (options[:message] || I18n.translate("validation.should_not_include_email"))
     end
   end
+
+  def self.kind
+    :custom
+  end
 end
